@@ -13,6 +13,7 @@ app.get("/", async (req, res) => {
   res.sendStatus(200);
 });
 app.use("/player", playerRoute);
+app.use("/team", teamRoute);
 
 app.listen(3000, () => {
   console.log("server is running on port 3000");

@@ -1,5 +1,5 @@
 const db = require("../db/db");
-const { player, team } = db;
+const { player } = db;
 
 const getAllPlayer = async (req, res) => {
   try {
