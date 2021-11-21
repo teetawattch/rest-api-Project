@@ -2,10 +2,10 @@
 
 Frontend use ReactJS
 
-## npm start
+### npm start
 
-Backend use NodeJs
+Backend use NodeJs & Sequelize
 
-## npm run dev
+### npm run dev
 
 The project will be start. This is the rest-api-project, I learn NodeJS and ReactJS Basic from this project.
