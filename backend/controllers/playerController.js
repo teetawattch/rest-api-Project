@@ -1,9 +1,11 @@
 const db = require("../db/db");
-const { player } = db;
+const { player, team } = db;
 
 const getAllPlayer = async (req, res) => {
   try {
-    const data = await player.findAll();
+    const data = await player.findAll({
+      include: team
+    });
     return res
       .status(200)
       .json({ status: true, message: "success", data: data });

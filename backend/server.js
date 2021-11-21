@@ -1,10 +1,12 @@
 const express = require("express");
 const app = express();
+const cors = require('cors')
 
 const playerRoute = require("./routes/player");
 const teamRoute = require("./routes/team");
 
 app.use(express.json());
+app.use(cors())
 
 const db = require("./db/db");
 db.sequelize.sync();

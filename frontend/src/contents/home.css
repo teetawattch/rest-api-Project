@@ -1,0 +1,93 @@
+.homepageContent,
+.teampageContent,
+.playerpageContent {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dfdddd;
+  width: 45rem;
+  height: 100vh;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1rem gray;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+h2 {
+  margin-top: 1rem;
+}
+.playercontent,
+.teamContent {
+  margin-top: 2rem;
+}
+p {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: #535353;
+  text-align: center;
+}
+.tablePlayer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.tablePlayer thead th {
+  padding: 1.5rem 2.5rem;
+}
+td {
+  padding: 1rem;
+}
+tr {
+  transition: 0.5s;
+  border-bottom: 1px solid #c3c3c3;
+}
+.tableTeam {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.tableTeam thead th {
+  padding: 1.5rem 2.5rem;
+}
+.showDataPlayer {
+  padding: 0.5rem;
+  margin: 0.75rem 0.5rem 0.5rem 33rem;
+  border: none;
+  background-color: #0084ff;
+  border-radius: 15px;
+  color: #fff;
+  transition: 0.5s;
+}
+.showDataPlayer:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 1px 2px 20px #0084ff;
+}
+.showDataTeam {
+  padding: 0.5rem;
+  margin: 0.75rem 0.5rem 0.5rem 33rem;
+  border: none;
+  background-color: #0084ff;
+  border-radius: 15px;
+  color: #fff;
+  transition: 0.5s;
+}
+.showDataTeam:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 1px 2px 20px #0084ff;
+}
+.playercontent,
+.teamContent {
+  background-color: #ccc;
+  margin: 3rem 1.5rem;
+  padding: 1rem;
+  border-radius: 15px;
+}
